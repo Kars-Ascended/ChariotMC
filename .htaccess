@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Redirect root to home
+RewriteRule ^$ /home [R=302,L]
+
+# Serve static files directly
+RewriteCond %{REQUEST_URI} !^/css/
+RewriteCond %{REQUEST_URI} !^/js/
+RewriteCond %{REQUEST_URI} !^/assets/
+
+# Rewrite clean URLs to /pages/
+RewriteRule ^([^/]+)$ /pages/$1.php [L]

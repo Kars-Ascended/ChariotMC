@@ -1,0 +1,50 @@
+a {
+    color: inherit; /* site default */
+    text-decoration: none; 
+}
+
+main-element {
+    display: block; /* default is inline, wont show */
+    margin-inline: 10%;
+    margin-block:1em;
+    padding: 0.5em; /* always have at minimum 1px */
+
+    border: #ffffff80 1px solid;
+    border-radius: 0.5em;
+    background-color: var(--main);
+}
+
+main-element:hover{
+    border: var(--accent) 1px solid;
+
+}
+
+main-element[welcome] {
+    margin-inline: 5% !important;
+
+    img {
+        height: 15em; width: 15em;
+        float:left;
+        border: 2px solid #ffffff80;
+        border-radius: 0.3em;
+
+    }
+} 
+
+[button] {
+    margin: 0.5em;
+    padding: 0.5em;
+
+    cursor: pointer;
+    border: 2px solid #ffffff80;
+    border-radius: 0.3em;
+    background-color: var(--accent);
+}
+
+[underline] {
+    text-decoration: underline;
+}
+
+[center] {
+    text-align: center;
+}
