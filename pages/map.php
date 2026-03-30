@@ -5,5 +5,10 @@
 </main-element>
 
 <main-element welcome style="height:75vh;">
-    <h2>map here when link exists, waiting on host<h2>
+    <iframe style="border-radius:0.5em;border:none;"
+        src="http://node-de-01.tickhosting.com:40172/" 
+        width="100%";
+        height="100%";
+        style="border: none;">
+    </iframe>
 </main-element>
