@@ -6,7 +6,7 @@
 
 <main-element welcome style="height:75vh;">
     <iframe style="border-radius:0.5em;border:none;"
-        src="https://bluemap.kars-ascended.xyz" 
+        src="proxy.php" 
         width="100%";
         height="100%";
         style="border: none;">
